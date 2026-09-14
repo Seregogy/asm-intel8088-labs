@@ -1,0 +1,4 @@
+{
+    "assembly.comments.lineComment": "!",
+    "assembly.comments.blockComment": ["/*", "*/"]
+}

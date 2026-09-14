@@ -1,0 +1,19 @@
+{
+  "name": "as88",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "make",
+  "remoteUser": "vscode",
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/workspaces/as88-labs/bin"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "HaxoGames.x86-assembly-syntax",
+        "tonybaloney.vscode-pets"
+      ]
+    }
+  }
+}
